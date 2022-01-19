@@ -107,7 +107,7 @@
         <profile>
             <id>prod</id>
             <properties>
-                <profileActive>pro</profileActive>
+                <profileActive>prod</profileActive>
                 <maven.test.skip>true</maven.test.skip>
                 <scope.jar>provided</scope.jar>
             </properties>
