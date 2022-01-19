@@ -15,7 +15,8 @@ spring:
       config:
         server-addr: 192.168.21.58:8848 #Nacos作为配置中心地址
         file-extension: yaml #指定yaml格式的配置
-        namespace: 62412c53-ef56-486d-b047-290e758bb43e
+        namespace: 62412c53-ef56-486d-b047-290e758bb43e  #配置空间名
+#        group  配置组名
   profiles:
     active: @profileActive@
   jackson:
