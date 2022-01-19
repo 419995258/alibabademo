@@ -14,11 +14,11 @@ import lombok.extern.slf4j.Slf4j;
 @RestController
 @RequestMapping("/api/test")
 @Slf4j
-@RefreshScope
+@RefreshScope  // 会监听变化实时变化值
 public class test {
 
 
-    @Value("${test:ttt}")
+    @Value("${test:ttt}")  // 配置value，：是指如果不存在默认值
     private String test;
 
     @GetMapping("/test")
